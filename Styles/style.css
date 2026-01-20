@@ -1,0 +1,92 @@
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.color-rediant{
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+}
+.btn{
+    padding: 12.5px 16px;
+    color: white;
+    border-radius: 110000px;
+    border:none;
+}
+.text-color{
+    color: white;
+}
+.background{
+     background: rgba(26, 11, 46, 1);
+}
+.color-green{
+    color:#00FF88;
+}
+
+
+
+
+
+
+
+
+ header .banner  {
+    background-image: url("../assets/hero-bg.png");
+    max-width: 1600px;
+    height: 760px;
+ }
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    padding:16px 200px;
+    background: rgba(26, 11, 46, 1);
+  
+}
+
+
+nav ul{
+    display:flex;
+    gap: 30px;
+    list-style: none;
+}
+.banner-image1{
+  padding: 90px 625px 300px;
+ }
+
+ #About{
+    text-align: center;
+ }
+ .About-text h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+ }
+ .About-text p{
+    font-size: 16px;
+    margin-bottom: 160px;
+
+ }
+ .About-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 80px;
+    padding: 0 200px;
+ }
+ .card{
+    padding: 40px;
+    margin-bottom: 121px;
+ }
+  .card h3{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 16px;
+ } 
