@@ -28,6 +28,13 @@
 .color-green{
     color:#00FF88;
 }
+.bg-none{
+   background: none;
+   border: 1px solid #00FF88;
+}
+.display-hidden{
+   display:none;
+}
 
 
 
@@ -52,6 +59,36 @@ nav ul{
     gap: 30px;
     list-style: none;
 }
+.banner-text {
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 4;
+}
+
+.banner-text h2 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.banner-text p {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.banner-footer {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 16px;
+    z-index: 4;
+}
+
 .banner-btn{
     background-color: #00FF88;
     font-size: 18px;
@@ -91,6 +128,7 @@ nav ul{
 
  #About{
     text-align: center;
+    padding-top: 120px;
  }
  .About-text h1{
     font-size: 60px;
