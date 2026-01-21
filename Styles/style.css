@@ -101,6 +101,11 @@ nav ul{
     left: 62%;
     transform: translate(-50%, -50%);
     z-index: 3;
+    transition: transform 0.3s ease;
+}
+
+.banner-btn:hover {
+    transform: translate(-50%, -50%) scale(1.2) rotate(45deg);
 }
 .banner-container {
    position: relative;
@@ -331,3 +336,142 @@ nav ul{
 
 
 
+
+@media (max-width: 576px) {
+    nav {
+        padding: 16px 20px;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 16px;
+    }
+    
+    nav ul {
+       display:none;
+    }
+    
+    nav .btn {
+        display: none;
+    }
+    
+    nav .display-hidden {
+        display: block;
+    }
+    
+    .banner {
+        height: 500px;
+    }
+    
+    .banner-container {
+        padding: 50px 20px;
+    }
+    
+    .banner-text {
+        bottom: 70px;
+        padding: 0 20px;
+    }
+    
+    .banner-text h2 {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+    
+    .banner-text p {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    
+    .banner-footer {
+        bottom: -20px;
+        flex-direction: row;
+        gap: 8px;
+    }
+    
+    .banner-btn {
+        display: block;
+        top: 30%;
+        left: 85%;
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    
+    .img-container1 {
+        top: 35%;
+        transform: translate(-50%, -50%) scale(1.25);
+    }
+    
+    .img-container2 {
+        top: 35%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .About-card {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 0 20px;
+    }
+    
+    .card {
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .card h3 {
+        font-size: 32px;
+    }
+    
+    .About-text{
+      padding: 20px;
+    }
+    
+    .About-text h1 {
+        font-size: 36px;
+    }
+    
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        padding: 0 20px;
+    }
+    
+    .layout1, .layout2 {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .feature-card-container {
+        flex-direction: column;
+        padding: 0 20px 60px;
+    }
+    
+    .host-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .host-class {
+        margin: 0 20px;
+    }
+    
+    .host-icon {
+        justify-content: center;
+    }
+    
+    #footer {
+        padding: 0 20px;
+    }
+    
+    .footer-head {
+        font-size: 1.8rem;
+        padding-top: 60px;
+    }
+    
+    .footer-icon ul {
+        gap: 20px;
+        padding-top: 20px;
+    }
+    
+    .footer-copy {
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+}
